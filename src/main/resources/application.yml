@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: MyTest #在使用spring cloud时，会使用这个名字在Eureka中注册#
+  http:
+    encoding:
+      enabled: true
+      charset: utf-8
+
+myConfig:
+  demo1:
+    name: "zhangsan"
+    age: 20
