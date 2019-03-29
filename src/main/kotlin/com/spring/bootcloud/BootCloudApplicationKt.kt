@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.*
 /*
 	Kotlin代码
  */
-@SpringBootApplication
-@RestController
+//@SpringBootApplication
+//@RestController
 class BootCloudApplicationKt{
 
 	@RequestMapping(path = ["/test"], method = [RequestMethod.GET], produces = [MediaType.APPLICATION_JSON_UTF8_VALUE])
