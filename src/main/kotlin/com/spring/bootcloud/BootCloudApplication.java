@@ -11,11 +11,11 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 public class BootCloudApplication {
     public static void main(String[] args) {
-        //SpringApplication.run(BootCloudApplication.class, args);
+        SpringApplication.run(BootCloudApplication.class, args);
 
-        SpringApplication springApplication = new SpringApplication(BootCloudApplication.class);
-        springApplication.setBannerMode(Banner.Mode.OFF);
-
-        springApplication.run(args);
+//        SpringApplication springApplication = new SpringApplication(BootCloudApplication.class);
+//        springApplication.setBannerMode(Banner.Mode.OFF);
+//
+//        springApplication.run(args);
     }
 }
