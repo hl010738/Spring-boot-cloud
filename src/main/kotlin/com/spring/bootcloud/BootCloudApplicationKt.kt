@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*
  */
 @SpringBootApplication
 @RestController
-class BootCloudApplication1{
+class BootCloudApplicationKt{
 
 	@RequestMapping(path = ["/test"], method = [RequestMethod.GET], produces = [MediaType.APPLICATION_JSON_UTF8_VALUE])
 	fun test(): String{
