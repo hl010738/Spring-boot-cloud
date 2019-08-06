@@ -1,15 +1,12 @@
 package com.spring.bootcloud;
-import org.springframework.boot.Banner;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.web.bind.annotation.*;
 
 /*
     java 代码
  */
-@SpringBootApplication
-@RestController
-public class BootCloudApplication {
+//@SpringBootApplication
+//@RestController
+public class BootCloudApplicationjava {
     public static void main(String[] args) {
         SpringApplication.run(BootCloudApplication.class, args);
 
