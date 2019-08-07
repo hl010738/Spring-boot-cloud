@@ -13,3 +13,7 @@ myConfig:
   demo1:
     name: "zhangsan"
     age: 20
+
+logging:
+  level:
+    root: debug
