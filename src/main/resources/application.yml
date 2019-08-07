@@ -8,6 +8,10 @@ spring:
     encoding:
       enabled: true
       charset: utf-8
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
 
 myConfig:
   demo1:
@@ -16,4 +20,4 @@ myConfig:
 
 logging:
   level:
-    root: debug
+    root: INFO
