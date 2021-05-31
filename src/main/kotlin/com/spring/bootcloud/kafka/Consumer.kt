@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component
 @Component
 class Consumer {
 
-    @KafkaListener(topics = ["myTopic"], groupId = "myGroup")
+    //@KafkaListener(topics = ["myTopic"], groupId = "myGroup")
     fun getMessage(consumerRecord: ConsumerRecord<String, String>){
         println("getMessage invoked")
 
