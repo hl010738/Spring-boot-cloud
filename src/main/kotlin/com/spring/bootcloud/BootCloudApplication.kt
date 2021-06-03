@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.*
 import org.springframework.web.socket.config.annotation.EnableWebSocket
 import org.springframework.web.socket.config.annotation.WebSocketConfigurer
 import org.springframework.web.socket.config.annotation.WebSocketHandlerRegistry
+import java.util.*
 import javax.annotation.PostConstruct
 
 /*
@@ -59,7 +60,10 @@ class BootCloudApplication: WebSocketConfigurer{
 }
 
 fun main(args: Array<String>) {
-	runApplication<BootCloudApplication>(*args)
+
+	var names = runApplication<BootCloudApplication>(*args).getBeanNamesForType(String::class.java)
+
+	println(Arrays.toString(names))
 }
 
 

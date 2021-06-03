@@ -30,3 +30,7 @@ myConfig:
 logging:
   level:
     root: INFO
+
+condition1:
+  test:
+    value: "shanghai"
