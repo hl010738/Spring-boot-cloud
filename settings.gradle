@@ -3,4 +3,4 @@ pluginManagement {
 		gradlePluginPortal()
 	}
 }
-rootProject.name = 'boot-cloud'
+rootProject.name = 'spring-boot-cloud'
